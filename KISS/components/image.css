@@ -1,0 +1,23 @@
+/* 图片路径 */
+span.md-meta.md-before.md-content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: var(--img-path-bg);
+  padding: .1rem 1.2rem;
+  border: 2px solid var(--img-path-border-color);
+  z-index: 10;
+}
+
+img {
+  filter: var(--img-filter);
+}
+
+span[md-inline="image"] {
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+}
+
+span[md-inline="image"].md-expand {
+  border-color: var(--default-300);
+}

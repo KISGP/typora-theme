@@ -1,0 +1,57 @@
+/* 行内代码 */
+
+span[md-inline="code"] code {
+  background-color: var(--default-200);
+  color: var(--primary-400);
+  padding: 0 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: inline-block;
+  margin: 0 0.1em;
+  box-shadow: 0 0 0 1px var(--default-50);
+}
+
+/* 代码块 */
+
+.md-fences {
+  color: var(--default-800);
+  background-color: var(--gray-200);
+  font-weight: 400;
+  line-height: 1.7777778;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.5rem;
+  padding: .4rem .2rem
+}
+
+.CodeMirror {
+  background-color: transparent;
+}
+
+.CodeMirror-gutters {
+  border-right: 1px dashed var(--default-400);
+}
+
+.md-fences .code-tooltip {
+  bottom: -2.6rem;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+}
+
+.code-tooltip .ty-input {
+  padding: .4rem 1rem;
+  border-radius: .6rem;
+  border: 2PX solid var(--default-400);
+  background-color: var(--default-200);
+}
+
+.code-tooltip .ty-input:focus {
+  border-color: var(--primary-500);
+  background-color: var(--primary-100);
+}

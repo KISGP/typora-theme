@@ -1,0 +1,161 @@
+/* 基本 */
+#typora-sidebar {
+  border-right: none;
+}
+
+.sidebar-content {
+  padding-right: 2px;
+}
+
+/* 搜索 */
+.ty-sidebar-search-panel {
+  padding-top: 16px;
+}
+
+.ty-show-outline-filter #file-library-search,
+.ty-show-search #file-library-search {
+  height: 64px;
+}
+
+#file-library-search-input {
+  border: 2px solid var(--sidebar-search-border-color-unfocus);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+#file-library-search-input:focus {
+  border-color: var(--sidebar-search-border-color-focus);
+}
+
+#close-outline-filter-btn {
+  top: 25px;
+}
+
+.ty-sidebar-search-panel .searchpanel-search-option-btn {
+  top: 25px;
+}
+
+#filesearch-regexp-option-btn {
+  right: 20px;
+}
+
+#filesearch-word-option-btn {
+  right: 50px;
+}
+
+#filesearch-case-option-btn {
+  right: 80px;
+}
+
+/* 文件 */
+.file-tree-node.active>.file-node-background {
+  border-radius: 0 .5rem .5rem 0;
+}
+
+
+/* 大纲 */
+.outline-expander {
+  margin: 0 .5rem;
+  position: absolute;
+  right: 0;
+  top: .6rem;
+}
+
+.outline-item {
+  margin-right: -10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.outline-item:hover {
+  margin-right: -10px;
+  border-radius: 0 2rem 2rem 0;
+  border-right: none;
+}
+
+.outline-h2>.outline-item {
+  padding-left: 0;
+  margin-left: 1em;
+  border-left: 1px dashed var(--item-border-color);
+}
+
+.outline-h3>.outline-item {
+  padding-left: 0;
+  margin-left: 2em;
+  border-left: 1px dashed var(--item-border-color);
+}
+
+.outline-h4>.outline-item {
+  padding-left: 0;
+  margin-left: 3em;
+  border-left: 1px dashed var(--item-border-color);
+}
+
+.outline-h5>.outline-item {
+  padding-left: 0;
+  margin-left: 4em;
+  border-left: 1px dashed var(--item-border-color);
+}
+
+.outline-h6>.outline-item {
+  padding-left: 0;
+  margin-left: 5em;
+  border-left: 1px dashed var(--item-border-color);
+}
+
+.outline-label {
+  padding: .4rem .6em;
+}
+
+.outline-label:hover {
+  text-decoration: none;
+  border-right: none;
+  margin-right: 0;
+  padding-right: 28px;
+}
+
+
+.pin-outline.no-collapse-outline .outline-expander {
+  display: block;
+  visibility: hidden;
+}
+
+/* 侧边栏滚动条 */
+
+.sidebar-content ::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.sidebar-content ::-webkit-scrollbar:hover {
+  background-color: transparent;
+}
+
+.sidebar-content ::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, .2);
+}
+
+.sidebar-content ::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, .3)
+}
+
+.sidebar-content ::-webkit-scrollbar-thumb:vertical {
+  border-left: none;
+}
+
+.sidebar-content ::-webkit-scrollbar-thumb:vertical:hover {
+  border-left: none;
+}
+
+/* 右键菜单 */
+#outline-menu {
+  border-radius: .4rem;
+  border: 1px solid var(--default-300);
+}
+
+.context-menu.dropdown-menu>li>a {
+  border-radius: .4rem;
+}

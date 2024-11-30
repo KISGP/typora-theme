@@ -1,0 +1,5 @@
+mark {
+  color: var(--red-500);
+  background-color: transparent;
+  font-weight: 700;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("../font/JetBrainsMonoNL-Regular.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("../font/JetBrainsMonoNL-Italic.ttf") format("truetype");
+  font-named-instance: "Italic";
+}
+
+@font-face {
+  font-family: Biro_Script_reduced;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("../font/BiroScriptUSPlus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ConteScriptReduced;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("../font/ContéScriptReduced.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TimesNewRoman;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("../font/TimesNewRoman.ttf") format("truetype");
+}
+

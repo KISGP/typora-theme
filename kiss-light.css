@@ -1,0 +1,106 @@
+@import "KISS/lib/font.css";
+@import "KISS/lib/color.css";
+
+@import "KISS/layout/base.css";
+@import "KISS/layout/content.css";
+@import "KISS/layout/sidebar.css";
+
+@import "KISS/components/mark.css";
+@import "KISS/components/code.css";
+@import "KISS/components/image.css";
+@import "KISS/components/lists.css";
+@import "KISS/components/layout.css";
+@import "KISS/components/outline.css";
+@import "KISS/components/callout.css";
+@import "KISS/components/headings.css";
+@import "KISS/components/paragraph.css";
+@import "KISS/components/blockquote.css";
+@import "KISS/components/front-matter.css";
+@import "KISS/components/table.css";
+
+:root {
+  --default-50: var(--zinc-50);
+  --default-100: var(--zinc-100);
+  --default-200: var(--zinc-200);
+  --default-300: var(--zinc-300);
+  --default-400: var(--zinc-400);
+  --default-500: var(--zinc-500);
+  --default-600: var(--zinc-600);
+  --default-700: var(--zinc-700);
+  --default-800: var(--zinc-800);
+  --default-900: var(--zinc-900);
+  --default-950: var(--zinc-950);
+
+  --primary-50: var(--blue-50);
+  --primary-100: var(--blue-100);
+  --primary-200: var(--blue-200);
+  --primary-300: var(--blue-300);
+  --primary-400: var(--blue-400);
+  --primary-500: var(--blue-500);
+  --primary-600: var(--blue-600);
+  --primary-700: var(--blue-700);
+  --primary-800: var(--blue-800);
+  --primary-900: var(--blue-900);
+  --primary-950: var(--blue-950);
+
+  --secondary-50: var(--indigo-50);
+  --secondary-100: var(--indigo-100);
+  --secondary-200: var(--indigo-200);
+  --secondary-300: var(--indigo-300);
+  --secondary-400: var(--indigo-400);
+  --secondary-500: var(--indigo-500);
+  --secondary-600: var(--indigo-600);
+  --secondary-700: var(--indigo-700);
+  --secondary-800: var(--indigo-800);
+  --secondary-900: var(--indigo-900);
+  --secondary-950: var(--indigo-950);
+
+
+  /* 全局背景 */
+  --bg-color: var(--primary-50);
+  --text-color: var(--default-900);
+  --select-text-bg-color: #0078ff38;
+
+
+  /* 右键菜单 */
+  --dropdown-menu-bg-color: white;
+
+  /* 书写区域 */
+  --input-bg-color: white;
+
+  /* 文件内搜索 */
+  --search-select-bg-color: navajowhite;
+  --search-select-text-color: var(--text-color);
+
+  /* 图片 */
+  --img-filter: brightness(1);
+  --img-path-bg: var(--default-100);
+  --img-path-border-color: var(--primary-400);
+
+  /* 侧边栏 */
+  --side-bar-bg-color: var(--bg-color);
+  --control-text-color: var(--gray-500);
+  --control-text-hover-color: var(--primary-500);
+  /* 侧边栏 - 文件 */
+  --active-file-bg-color: var(--gray-200);
+  --active-file-text-color: var(--primary-600);
+  /* 侧边栏 - 大纲 */
+  --item-hover-bg-color: var(--primary-100);
+  --item-border-color: var(--default-400);
+  /* 侧边栏 - 搜索 */
+  --sidebar-search-border-color-unfocus: var(--default-300);
+  --sidebar-search-border-color-focus: var(--primary-400);
+
+  /* 引用块 */
+  --blockquote-text: var(--default-500);
+  --blockquote-text-strong: var(--default-700);
+  --blockquote-border: var(--default-300);
+
+  /* callout 块 */
+  --callout-border: #dedede;
+  --callout-note: #bce3ff4d;
+  --callout-tip: #00ffc81a;
+  --callout-important: #b38bff33;
+  --callout-warning: #ffab0033;
+  --callout-caution: #cf222e33;
+}

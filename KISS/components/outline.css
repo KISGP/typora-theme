@@ -1,0 +1,4 @@
+.pin-outline .outline-active {
+  font-weight: 700;
+  color: var(--primary-500);
+}

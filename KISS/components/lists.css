@@ -1,0 +1,79 @@
+ol {
+  list-style-type: decimal;
+  padding-left: 1.6em;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.6em;
+}
+
+li.md-list-item {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+#write ul.task-list {
+  padding-left: 0;
+}
+
+#write li.task-list-item {
+  padding-left: 0.4em;
+}
+
+#write input[type="checkbox"] {
+  margin-left: -1em;
+}
+
+input[checked]~* {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+ol>li::marker {
+  font-weight: 400;
+  color: var(--default-400);
+}
+
+ul>li::marker {
+  color: var(--default-400);
+}
+
+#write ul>li,
+#write ol>li {
+  padding-left: 0.4em;
+}
+
+#write ul>li p,
+#write ol>li p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+#write>ul>li> :not(input):first-child,
+#write>ol>li> :not(input):first-child,
+#write>ul>li>input+*,
+#write>ol>li>input+* {
+  margin-top: 1.2em;
+}
+
+#write>ul>li>*:last-child,
+#write>ol>li>*:last-child {
+  margin-bottom: 1.2em;
+}
+
+#write ul>li>p:only-child,
+#write ol>li>p:only-child,
+#write ul>li>input+p:last-child,
+#write ol>li>input+p:last-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}

@@ -1,0 +1,10 @@
+pre.md-meta-block {
+  color: var(--default-500);
+  background-color: var(--primary-50);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7777778;
+  border-radius: 0.5rem;
+  padding: 1.1111111em 1.3333333em;
+  margin-bottom: 2.8em;
+}

@@ -1,0 +1,32 @@
+.md-alert {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  border-left: none;
+  border: 3px solid var(--callout-border) !important;
+}
+
+.md-alert-note {
+  background-color: var(--callout-note);
+}
+
+.md-alert-tip {
+  background-color: var(--callout-tip);
+}
+
+.md-alert-important {
+  background-color: var(--callout-important);
+}
+
+.md-alert-warning {
+  background-color: var(--callout-warning);
+}
+
+.md-alert-caution {
+  background-color: var(--callout-caution);
+}
+
+div.md-alert>p:first-child {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}

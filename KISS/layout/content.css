@@ -1,0 +1,65 @@
+content {
+  background-color: var(--input-bg-color);
+}
+
+#write {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 100ch;
+}
+
+#write> :where(:first-child) {
+  margin-top: 0;
+}
+
+#write> :where(:last-child) {
+  margin-bottom: 0;
+}
+
+#write {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* 书写区域圆角 */
+/* @media (max-width: 1000px) {
+  footer.ty-footer {
+    background-color: var(--input-bg-color);
+    margin: 0 .5rem .5rem .5rem;
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1270px) {
+  .pin-outline content {
+    margin: .5rem 0;
+    border-radius: .5rem 0 0 .5rem;
+  }
+} */
+
+/* 右键菜单 */
+#context-menu {
+  padding: .4rem .4rem .2rem .4rem;
+  border-radius: .4rem;
+  border: 1px solid var(--default-300);
+}
+
+#context-menu li {
+  margin: .2rem 0;
+}
+
+.menu-item-container {
+  padding: 0 .2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: .2rem;
+}
+
+.ext-context-menu {
+  background-color: white;
+  border-radius: .4rem;
+  padding: .4rem;
+  margin: .2rem;
+  border: 1px solid var(--default-300);
+}
