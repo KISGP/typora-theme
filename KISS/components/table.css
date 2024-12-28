@@ -10,10 +10,10 @@ figure[mdtype="table"]:active {
 }
 
 .md-table-edit {
-  top: -.5em;
+  top: 1.5em;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--primary-100);
+  background-color: transparent;
   border-radius: .4rem;
   padding: 0 1em;
 }
